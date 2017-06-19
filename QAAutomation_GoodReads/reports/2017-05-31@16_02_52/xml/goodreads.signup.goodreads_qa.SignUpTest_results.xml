@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SignUp Functionality"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="39.024">
+  <properties />
+  
+  
+            <testcase name="testSignUpWithValidCredential" time="29.213" classname="goodreads.signup.goodreads_qa.SignUpTest" />
+                <testcase name="testSignUpWithInValidCredential" time="9.811" classname="goodreads.signup.goodreads_qa.SignUpTest" />
+      
+</testsuite>

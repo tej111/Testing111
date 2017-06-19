@@ -1,0 +1,11 @@
+goodreads\signup\goodreads_qa\po\RecommendationPage.class
+goodreads\signup\goodreads_qa\utils\XMLUtils.class
+goodreads\signup\goodreads_qa\po\LogOutPage.class
+goodreads\signup\goodreads_qa\po\SelectGeneres.class
+goodreads\signup\goodreads_qa\po\SetReadingpage.class
+goodreads\signup\goodreads_qa\po\SignInPage.class
+goodreads\signup\goodreads_qa\utils\WaitTime.class
+goodreads\signup\goodreads_qa\po\ApplicationPage.class
+goodreads\signup\goodreads_qa\po\FinishRatingPage.class
+goodreads\signup\goodreads_qa\po\BasePage.class
+goodreads\signup\goodreads_qa\po\HomePage.class

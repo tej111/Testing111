@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <test>
+ 
+ <SignUpData>
+ <param name="userName">gooreadTesting</param>
+ <param name="email">unique</param>
+ <param name="password">Goodreads@123</param>
+ </SignUpData>
+ 
+ 
+ 
+  
+</test>
+

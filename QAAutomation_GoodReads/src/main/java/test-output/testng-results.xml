@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161" started-at="2017-06-19T11:07:50Z" finished-at="2017-06-19T11:07:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161" started-at="2017-06-19T11:07:50Z" finished-at="2017-06-19T11:07:50Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="beforeMainTest()[pri:0, instance:test.LoginTest@50c87b21]" name="beforeMainTest" is-config="true" duration-ms="23" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMainTest -->
+        <test-method status="FAIL" signature="beforeMainClass(java.lang.String, java.lang.String)[pri:0, instance:test.LoginTest@50c87b21]" name="beforeMainClass" is-config="true" duration-ms="0" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'driverType' is required by @Configuration on method beforeMainClass but has not been marked @Optional or defined
+in C:\Users\Tej\AppData\Local\Temp\testng-eclipse-662103081\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'driverType' is required by @Configuration on method beforeMainClass but has not been marked @Optional or defined
+in C:\Users\Tej\AppData\Local\Temp\testng-eclipse-662103081\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMainClass -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.LoginTest@50c87b21]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testLoginWithInValidCredential()[pri:0, instance:test.LoginTest@50c87b21]" name="testLoginWithInValidCredential" duration-ms="3" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInValidCredential -->
+        <test-method status="SKIP" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:test.LoginTest@50c87b21]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:test.LoginTest@50c87b21]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="testLoginWithValidCredential()[pri:0, instance:test.LoginTest@50c87b21]" name="testLoginWithValidCredential" duration-ms="5" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredential -->
+        <test-method status="SKIP" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:test.LoginTest@50c87b21]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="afterMainClass()[pri:0, instance:test.LoginTest@50c87b21]" name="afterMainClass" is-config="true" duration-ms="0" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainClass -->
+        <test-method status="SKIP" signature="afterMainTest()[pri:0, instance:test.LoginTest@50c87b21]" name="afterMainTest" is-config="true" duration-ms="0" started-at="2017-06-19T16:37:50Z" finished-at="2017-06-19T16:37:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainTest -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

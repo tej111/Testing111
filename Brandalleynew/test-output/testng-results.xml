@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56248" started-at="2017-05-30T13:39:57Z" finished-at="2017-05-30T13:40:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56248" started-at="2017-05-30T13:39:57Z" finished-at="2017-05-30T13:40:53Z">
+      <class name="test.Checkplp">
+        <test-method status="PASS" signature="Openbrowser()[pri:0, instance:test.Checkplp@174d20a]" name="Openbrowser" is-config="true" duration-ms="23426" started-at="2017-05-30T19:09:57Z" finished-at="2017-05-30T19:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbrowser -->
+        <test-method status="PASS" signature="plppage()[pri:0, instance:test.Checkplp@174d20a]" name="plppage" duration-ms="32807" started-at="2017-05-30T19:10:21Z" finished-at="2017-05-30T19:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plppage -->
+        <test-method status="PASS" signature="Closebrowser()[pri:0, instance:test.Checkplp@174d20a]" name="Closebrowser" is-config="true" duration-ms="0" started-at="2017-05-30T19:10:53Z" finished-at="2017-05-30T19:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closebrowser -->
+      </class> <!-- test.Checkplp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

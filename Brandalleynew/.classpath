@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="C:/library/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/library/testng-6.9.13.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
